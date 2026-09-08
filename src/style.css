@@ -1015,9 +1015,16 @@ footer {
   pointer-events: none;
   z-index: 9999;
   transform: translate(-50%, -50%);
-  transition: transform 0.1s ease-out;
+  transition: transform 0.1s ease-out, width 0.3s ease, height 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
 }
 
+.custom-cursor.cursor-hover {
+  width: 28px;
+  height: 28px;
+  background-color: rgba(102, 93, 205, 0.15);
+  border-color: rgba(210, 171, 103, 0.8);
+}
+ 
 body,
 a,
 button {
